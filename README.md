@@ -54,9 +54,17 @@ WeatherWidget(
 如日落的微风等
 
 包括
-背景  BackgroundWidget（List<Color>,size）
-云朵  CloudWidget (Color)
-单独一个随机雨滴 RainWidget (
+背景
+```dart
+    BackgroundWidget（List<Color>,size）
+```  
+云朵  
+```dart
+    CloudWidget (Color)
+```
+单独一个随机雨滴 
+```dart
+RainWidget (
                          @required rainRangeXStart, #雨滴随机出现的X轴起点
                          @required rainRangeXEnd,   #雨滴随机出现的X轴终点
                          @required rainRangeYStart,
@@ -68,7 +76,10 @@ WeatherWidget(
                          rainColor,
                          rainCurve  #下落动画的曲线
                          )
-单独一个随机雪花 SnowWidget (
+```
+单独一个随机雪花 
+```dart
+SnowWidget (
                          this.snowAreaXStart,  #雪花随机出现的X轴起点
                          this.snowAreaXEnd,    #雪花随机出现的X轴终点
                          this.snowWaveRangeMin,    #雪花的最小飘动距离
@@ -84,8 +95,10 @@ WeatherWidget(
                          this.waveCurve,        #飘动动画曲线
                          this.fadeCurve         #消失动画曲线
 )
-
-单独一个闪电 ThunderWidget (
+```
+单独一个闪电 
+```dart
+ThunderWidget (
                          this.flashMillStart,   #闪烁的最小时间
                          this.flashMillEnd,     #闪烁的最大时间
                          this.pauseMillStart,   #间隔的最小时间
@@ -96,8 +109,10 @@ WeatherWidget(
                          this.color,
                          this.width
 )
-
-单独的一个风 WindWidget (
+```
+单独的一个风 
+```dart
+WindWidget (
                         this.pauseMillStart,    #间隔最小时间
                         this.pauseMillEnd,      #间隔的最大时间
                         this.windPositionY,     #出现的Y轴位置
@@ -110,5 +125,6 @@ WeatherWidget(
                         this.blurStyle,
                         this.blurSigma
 )
+```
 
 太阳在WeatherWidget sunConfig中设置背景Color
