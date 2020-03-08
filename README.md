@@ -14,7 +14,7 @@ WeatherWidget(
          ),   
 ```
 这将使用默认设置添加一个晴天
-
+[!image]https://github.com/carendule/WeatherWidget/blob/master/image/1.gif
 或
 注：雨滴和雪花需指定默认数量,它们将在范围内随机运动
 ```dart
@@ -48,11 +48,14 @@ WeatherWidget(
              thunderConfig:ThunderConfig()
          ),
 ```
+[!image]https://github.com/carendule/WeatherWidget/blob/master/image/2.gif[!image]https://github.com/carendule/WeatherWidget/blob/master/image/3.gif
+[!image]https://github.com/carendule/WeatherWidget/blob/master/image/4.gif
 
 当然每个Config包含其他设置,如随机雨点的出现范围，大小，长度，下落速度和颜色等，你可以使用他们创造冰雹等其他特征天气
 如果默认天气不足，你可以使用各个单独的widget结合Stack()来拼凑希望的天气
 如日落的微风等
-
+[!image]https://github.com/carendule/WeatherWidget/blob/master/image/6.gif[!image]https://github.com/carendule/WeatherWidget/blob/master/image/5.gif
+[!image]https://github.com/carendule/WeatherWidget/blob/master/image/7.gif
 包括
 背景
 ```dart
