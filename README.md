@@ -48,15 +48,15 @@ WeatherWidget(
              thunderConfig:ThunderConfig()
          ),
 ```
-![雨天](https://github.com/carendule/WeatherWidget/blob/master/image/2.gif)  
-![雪天](https://github.com/carendule/WeatherWidget/blob/master/image/3.gif)  
+![雨天](https://github.com/carendule/WeatherWidget/blob/master/image/2.gif)
+![雪天](https://github.com/carendule/WeatherWidget/blob/master/image/3.gif)
 ![闪电](https://github.com/carendule/WeatherWidget/blob/master/image/4.gif)  
 
 当然每个Config包含其他设置,如随机雨点的出现范围，大小，长度，下落速度和颜色等，你可以使用他们创造冰雹等其他特征天气  
 如果默认天气不足，你可以使用各个单独的widget结合Stack()来拼凑希望的天气  
 如日落的微风等  
-![日落微风](https://github.com/carendule/WeatherWidget/blob/master/image/6.gif)  
-![雨加雪](https://github.com/carendule/WeatherWidget/blob/master/image/5.gif)  
+![日落微风](https://github.com/carendule/WeatherWidget/blob/master/image/6.gif)
+![雨加雪](https://github.com/carendule/WeatherWidget/blob/master/image/5.gif)
 ![雷雨](https://github.com/carendule/WeatherWidget/blob/master/image/7.gif)  
 包括  
 背景
