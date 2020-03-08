@@ -1,6 +1,8 @@
 name: weather_widget
 description: 天气相关的简易控件,可自由组合搭配形成各种天气背景
-
+authors:
+  - carendule
+homepage: 'null'
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
 # followed by an optional build number separated by a +.
