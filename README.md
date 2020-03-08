@@ -3,6 +3,14 @@
 天气相关的简易控件,可自由组合搭配形成各种天气背景
 
 ## Getting Started
+depend
+
+Add this to your package's pubspec.yaml file:
+
+```dart
+dependencies:
+  weather_widget: ^1.0.0+1
+```
 
 WeatherWidget使用方法简便，只需添加WeatherWidget控件即可开始使用
 
