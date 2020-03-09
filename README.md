@@ -2,6 +2,8 @@
 
 Simple weather related widget, which can be freely combined to form a variety of weather backgrounds
 
+chinese [中文README](https://github.com/carendule/WeatherWidget/blob/master/README_zh.md)
+
 ## Getting Started
 depend
 
@@ -62,7 +64,7 @@ WeatherWidget(
 
 Of course, each config contains other settings, such as the range, size, length, falling speed and color of random raindrops. You can use them to create hailstones and other weather features  
 If the default weather is not enough, you can use individual widgets and stack() widget to piece together the desired weather  
-Like this sunset breeze, etc 
+Like this sunset breeze, etc  
 ![sunset breeze](https://github.com/carendule/WeatherWidget/blob/master/image/6.gif)
 ![snow with rain](https://github.com/carendule/WeatherWidget/blob/master/image/5.gif)
 ![thunder with rain](https://github.com/carendule/WeatherWidget/blob/master/image/7.gif)  
