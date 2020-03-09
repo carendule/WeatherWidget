@@ -1,5 +1,5 @@
 name: weather_widget
-description: 天气相关的简易控件,可自由组合搭配形成各种天气背景
+description: Simple weather related controls can be freely combined to form a variety of weather dynamic effects background, or can be used as the background effect of app
 homepage: 'https://github.com/carendule/WeatherWidget'
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
