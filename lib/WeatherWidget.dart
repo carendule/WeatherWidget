@@ -902,7 +902,7 @@ class SingleSnowState extends State<SnowWidget> with TickerProviderStateMixin {
 /*thunderWidget*/
 
 class ThunderConfig {
-  final int thunderWidth;
+  final double thunderWidth;
   final Color thunderColor;
 
   ThunderConfig({this.thunderWidth, this.thunderColor});

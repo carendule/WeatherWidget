@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'WeatherWidget.dart';
+import 'WeatherWidget'
 
 void main() => runApp(MyApp());
 
@@ -14,7 +14,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: WeatherWidget(
-          size: Size.infinite, weather: 'Sunny', sunConfig: SunConfig()),
+          size: Size.infinite,
+          weather: 'Thunder',
+          thunderConfig:ThunderConfig(
+            thunderWidth:12
+          )
+    )
     );
   }
 }
