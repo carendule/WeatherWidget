@@ -9,3 +9,7 @@
 ## 1.0.3
 
 - fix a bug in thunderConfig width
+
+## 1.0.4
+
+- fix example
