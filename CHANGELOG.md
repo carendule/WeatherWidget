@@ -13,3 +13,7 @@
 ## 1.0.4
 
 - fix example
+
+## 1.0.5
+
+-fix some controller dispose

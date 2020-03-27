@@ -183,9 +183,9 @@ class SunWidgetState extends State<WeatherWidget>
 
   @override
   void dispose() {
-    super.dispose();
     outController.dispose();
     inController.dispose();
+    super.dispose();
   }
 }
 
@@ -364,9 +364,9 @@ class SingleCloudState extends State<CloudWidget>
 
   @override
   void dispose() {
-    super.dispose();
     outController.dispose();
     inController.dispose();
+    super.dispose();
   }
 }
 
@@ -507,9 +507,9 @@ class RainWidgetState extends State<WeatherWidget>
 
   @override
   void dispose() {
-    super.dispose();
     inController.dispose();
     outController.dispose();
+    super.dispose();
   }
 }
 
@@ -622,9 +622,9 @@ class SingleRainState extends State<RainWidget> with TickerProviderStateMixin {
 
   @override
   void dispose() {
-    super.dispose();
     rainController.dispose();
     fadeController.dispose();
+    super.dispose();
   }
 }
 
@@ -892,10 +892,10 @@ class SingleSnowState extends State<SnowWidget> with TickerProviderStateMixin {
 
   @override
   void dispose() {
-    super.dispose();
     fallController.dispose();
     waveController.dispose();
     fadeController.dispose();
+    super.dispose();
   }
 }
 
@@ -1040,6 +1040,13 @@ class SingleThunderState extends State<ThunderWidget>
   int _randomThunder({int poolStart, int poolEnd}) {
     Random random = Random();
     return random.nextInt(poolEnd - poolStart + 1) + poolStart;
+  }
+
+  @override
+  void dispose() {
+    fadeController.dispose();
+    pauseController.dispose();
+    super.dispose();
   }
 }
 
@@ -1195,6 +1202,14 @@ class SingleWindWidget extends State<WindWidget> with TickerProviderStateMixin {
   int _randomWind({int poolStart, int poolEnd}) {
     Random random = Random();
     return random.nextInt(poolEnd - poolStart + 1) + poolStart;
+  }
+
+  @override
+  void dispose() {
+    fadeController.dispose();
+    slideController.dispose();
+    pauseController.dispose();
+    super.dispose();
   }
 }
 
