@@ -1070,13 +1070,8 @@ class ThunderPainter extends CustomPainter {
         blurSigma == null ? 10 : blurSigma);
     _paint.style = PaintingStyle.stroke;
     if (points == null) {
-      points = new List();
-      points.add(Offset(110, 210));
-      points.add(Offset(120, 240));
-      points.add(Offset(106, 260));
-      points.add(Offset(133, 340));
-      points.add(Offset(105, 348));
-      points.add(Offset(120, 400));
+      points = [Offset(110, 210),Offset(120, 240),Offset(106, 260)
+      ,Offset(133, 340),Offset(105, 348),Offset(120, 400)];
     }
 
     canvas.drawPoints(PointMode.lines, points, _paint);
@@ -1238,18 +1233,13 @@ class WindPainter extends CustomPainter {
     _paint.strokeWidth = windWidth;
     _paint.maskFilter = MaskFilter.blur(blurStyle, blurSigma);
     _paint.style = PaintingStyle.stroke;
-    List<Offset> points = new List();
-    points.add(Offset(point.value + 10 + (point.value / 10), windSlideY));
-    points.add(Offset(point.value + 120 - (point.value / 10), windSlideY));
-    points.add(Offset(point.value - (point.value / 10), windSlideY + windGap));
-    points.add(
-        Offset(point.value + 133 + (point.value / 10), windSlideY + windGap));
-    points.add(
-        Offset(point.value + 2 + (point.value / 10), windSlideY + windGap * 2));
-    points.add(Offset(
-        point.value + 110 + (point.value / 10), windSlideY + windGap * 2));
-
-    canvas.drawPoints(PointMode.lines, points, _paint);
+    List<Offset> points = [Offset(point.value + 10 + (point.value / 10), windSlideY),
+      Offset(point.value + 120 - (point.value / 10), windSlideY),
+      Offset(point.value - (point.value / 10), windSlideY + windGap),
+      Offset(point.value + 133 + (point.value / 10), windSlideY + windGap),
+      Offset(point.value + 2 + (point.value / 10), windSlideY + windGap * 2),
+      Offset(point.value + 110 + (point.value / 10), windSlideY + windGap * 2)];
+     canvas.drawPoints(PointMode.lines, points, _paint);
   }
 
   @override
