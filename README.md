@@ -11,7 +11,7 @@ Add this to your package's pubspec.yaml file:
 
 ```dart
 dependencies:
-  weather_widget: ^1.0.5
+  weather_widget: ^1.0.6
 ```
 
 Weatherwidget is easy to use, just add weatherwidget to start using  

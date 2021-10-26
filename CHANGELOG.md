@@ -17,3 +17,7 @@
 ## 1.0.5
 
 -fix some controller dispose
+
+## 1.0.6
+
+-update cupertino_icons to newer version

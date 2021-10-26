@@ -9,7 +9,7 @@ Add this to your package's pubspec.yaml file:
 
 ```dart
 dependencies:
-  weather_widget: ^1.0.5
+  weather_widget: ^1.0.6
 ```
 
 WeatherWidget使用方法简便，只需添加WeatherWidget控件即可开始使用
